@@ -3,7 +3,7 @@ SELECT
     SUM(Purchase_Amount) AS total_revenue,
     COUNT(Transaction_ID) AS total_transactions,
     AVG(Purchase_Amount) AS avg_order_value
-FROM ecom_sales;
+FROM sales;
 
 
 
@@ -13,7 +13,7 @@ SELECT
     SUM(Purchase_Amount) AS revenue,
     COUNT(Transaction_ID) AS orders,
     ROUND(AVG(Purchase_Amount),2) AS avg_order_value
-FROM ecom_sales
+FROM sales
 GROUP BY Product_Category
 ORDER BY revenue DESC;
 
@@ -24,7 +24,7 @@ SELECT
     Country,
     SUM(Purchase_Amount) AS revenue,
     COUNT(Transaction_ID) AS orders
-FROM ecom_sales
+FROM sales
 GROUP BY Country
 ORDER BY revenue DESC
 LIMIT 5;
@@ -42,7 +42,7 @@ SELECT
     END AS age_group,
     SUM(Purchase_Amount) AS revenue,
     COUNT(Transaction_ID) AS orders
-FROM ecom_sales
+FROM sales
 GROUP BY age_group
 ORDER BY revenue DESC;
 
@@ -53,7 +53,7 @@ SELECT
     Payment_Method,
     COUNT(Transaction_ID) AS transactions,
     SUM(Purchase_Amount) AS revenue
-FROM ecom_sales
+FROM sales
 GROUP BY Payment_Method
 ORDER BY transactions DESC;
 
@@ -62,6 +62,6 @@ ORDER BY transactions DESC;
 SELECT 
     DATE_TRUNC('month', Transaction_Date) AS month,
     SUM(Purchase_Amount) AS revenue
-FROM ecom_sales
+FROM sales
 GROUP BY month
 ORDER BY month;
