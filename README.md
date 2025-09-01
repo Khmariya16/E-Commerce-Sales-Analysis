@@ -13,16 +13,31 @@ The main business questions are:
 7. Are there potential **inventory gaps** based on sales trends?
 
 ---
+<img width="2730" height="1534" alt="Dashboard 1 (1)" src="https://github.com/user-attachments/assets/b9626bae-a9af-4647-bb92-f71409ac50e4" />
 
 ## Analysis Performed
 Using SQL queries, the following analyses were carried out:
 
-1. **Overall Revenue & Transactions** – total revenue, total transactions, average order value  
-2. **Revenue by Product Category** – contribution of categories like Electronics, Fashion, Home, etc.  
-3. **Top Countries by Sales** – which geographies drive the most revenue  
-4. **Payment Method Analysis** – customer preference for UPI, Cards, PayPal, COD, etc.  
-5. **Customer Age Insights** – which age groups contribute most to sales  
-6. **Monthly Revenue Trend** – seasonality and time-based revenue changes  
+1. **Overall Revenue & Transactions** – total revenue, total transactions, average order value <br> <img width="545" height="81" alt="Screenshot 2025-08-31 at 10 50 44 AM" src="https://github.com/user-attachments/assets/e736edfd-32c0-44e1-a0f0-5b079226b231" />
+
+
+
+2. **Revenue by Product Category** – contribution of categories like Electronics, Fashion, Home, etc.  <br> <img width="622" height="292" alt="Screenshot 2025-08-31 at 10 52 20 AM" src="https://github.com/user-attachments/assets/8d73dada-4953-4612-a6cf-8e94bee4e2a6" />
+
+
+3. **Top Countries by Sales** – which geographies drive the most revenue  <br> <img width="391" height="201" alt="Screenshot 2025-08-31 at 10 53 30 AM" src="https://github.com/user-attachments/assets/78fdf036-c9de-42a3-b63d-5f26043fd8b3" />
+
+
+4. **Payment Method Analysis** – customer preference for UPI, Cards, PayPal, COD, etc.  <br> <img width="499" height="231" alt="Screenshot 2025-08-31 at 10 55 05 AM" src="https://github.com/user-attachments/assets/ed1f0064-1853-4071-9d46-3dfc3bc4109b" />
+
+
+
+5. **Customer Age Insights** – which age groups contribute most to sales <br>  <img width="411" height="201" alt="Screenshot 2025-08-31 at 10 54 24 AM" src="https://github.com/user-attachments/assets/c6c58c91-583d-4d3e-a198-2e751fea0971" />
+
+
+
+6. **Monthly Revenue Trend** – seasonality and time-based revenue changes  <br>
+<img width="456" height="201" alt="Screenshot 2025-08-31 at 10 56 35 AM" src="https://github.com/user-attachments/assets/cbcbc061-adeb-4d7c-a0be-ec885f29e3e9" />
 
 ---
 
